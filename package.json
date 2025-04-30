@@ -2,7 +2,6 @@
   "name": "react",
   "version": "1.0.0",
   "description": "Repository of My React Learning Journey",
-  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
@@ -20,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/iAyushCodes/ReactLearning/issues"
   },
-  "homepage": "https://github.com/iAyushCodes/ReactLearning#readme"
+  "homepage": "https://github.com/iAyushCodes/ReactLearning#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
 }

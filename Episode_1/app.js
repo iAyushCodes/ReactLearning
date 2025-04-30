@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 // I need a heading element ✅ -> React.createElement()
 // I need to add hello world to this heading element ✅ -> In the third argument
 // I need to have a root ✅ -> ReactDOM.createRoot
@@ -9,7 +11,7 @@
 
 
 // Below is various child inside one parent -> child array
-const heading = React.createElement("h1", {id: "heading"}, [React.createElement("h2", {id: "subheading"}, "Hello 1"), React.createElement("h3", {id: " sub-sub-heading"}, "Hello from h3")]);
+const heading = React.createElement("div", {id: "heading"}, [React.createElement("p", {id: "subheading"}, "Hello 1"), React.createElement("p", {id: " sub-sub-heading"}, "Hello from h3")]);
 
 const root = ReactDOM.createRoot(document.getElementById("root")); // Creating a root is part of DOM. Therefore ReactDOM.createRoot()
 root.render(heading); // Heading till now was a RESCT OBJECT, but render fetches an HTML element out of it and then the element is displayed on the WebPage
