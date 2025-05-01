@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Repository of My React Learning Journey",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel Episode_1/index.html",
+    "build": "parcel build Episode_1/index.html"
   },
   "repository": {
     "type": "git",
